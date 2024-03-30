@@ -101,7 +101,7 @@
         <div class="container col-xxl-9 px-5 py-3">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-10 col-sm-8 col-lg-6 mx-auto text-center"> <img data-aos="fade-up"
-                        src="{{ asset('images/adansc.webp') }}" class="d-block img-fluid" alt="Codesign simbol"
+                        src="{{ asset('images/AdanSc.webp') }}" class="d-block img-fluid" alt="AdanSc"
                         width="700" height="500" loading="lazy"> </div>
                 <div class="col-lg-6">
                     <h1 data-aos="fade-up" class="custom-h1 display-5 fw-bold lh-1 mb-3">Hola, mi nombre es <span

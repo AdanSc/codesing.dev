@@ -8,12 +8,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-    <link rel="icon" href="https://codesing.dev/static/img/Favicon.png" type="image/png">
+    <link rel="icon" href="{{ asset('images/Favicon.png') }}" type="image/png">
     <meta name="facebook-domain-verification" content="ex9i7rwgui4be6r80cydesy2ecce9q" />
     <meta property="og:title" content="Codesing { dev }">
     <meta property="og:description"
         content="Cada pixel cuenta y cada línea de código se traduce en soluciones excepcionales. Nuestro compromiso es convertir tu visión en realidad a través de la innovación y creatividad tecnológica.">
-    <meta property="og:image" content="https://codesing.dev/static/img/Opengraph.png">
+    <meta property="og:image" content="{{ asset('images/Opengraph.png') }}">
     <meta property="og:url" content="https://codesing.dev/">
     <meta property="og:type" content="website">
     @vite(['resources/css/app.css'])

@@ -3,14 +3,14 @@
 
 <head>
     <title>@yield('title')</title>
-    <link rel="icon" href="https://codesing.dev/static/img/Favicon.png" type="image/png">
+    <link rel="icon" href="{{ asset('images/Favicon.png') }}" type="image/png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="facebook-domain-verification" content="ex9i7rwgui4be6r80cydesy2ecce9q" />
     <meta property="og:title" content="Codesing { dev }">
     <meta property="og:description"
         content="Cada pixel cuenta y cada línea de código se traduce en soluciones excepcionales. Nuestro compromiso es convertir tu visión en realidad a través de la innovación y creatividad tecnológica.">
-    <meta property="og:image" content="https://codesing.dev/static/img/Opengraph.png">
+    <meta property="og:image" content="{{ asset('images/Opengraph.png') }}">
     <meta property="og:url" content="https://codesing.dev/">
     <meta property="og:type" content="website">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
