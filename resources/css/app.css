@@ -1,0 +1,133 @@
+.dev-text,
+.logo-home {
+  font-size: 24px;
+}
+.logo-footer,
+.logo-home,
+body {
+  font-family: Ubuntu, sans-serif;
+}
+.contact-button,
+.contact-button-border {
+  padding: 10px 30px;
+  font-size: 20px;
+  color: #fff;
+}
+.contact-button-border2:hover,
+.contact-button-border:hover,
+.contact-button2:hover,
+.contact-button:hover {
+  color: #fff !important;
+  transform: scale(1.05);
+}
+body {
+  background-color: #fff;
+}
+.logo-home {
+  color: #fff;
+  font-weight: 700;
+}
+.logo-footer {
+  color: #fff;
+  font-size: 16px;
+}
+.logo,
+H1 {
+  color: #2b0036;
+}
+.logo,
+.phero {
+  font-size: 24px;
+}
+.logo {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+}
+.h1-home,
+.navbar,
+.phero {
+  color: #fff;
+  font-family: Ubuntu, sans-serif;
+}
+H1 {
+  font-family: Ubuntu, sans-serif;
+}
+.dev-text {
+  color: #01cc00;
+  font-family: Ubuntu, sans-serif;
+}
+.navbar-degraded {
+  background: linear-gradient(108deg, #2b0036 1.11%, #5a0073 100%);
+  font-family: Ubuntu, sans-serif;
+}
+.contact-button {
+  background: linear-gradient(#01cc00, #01b100);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+.contact-button-border {
+  background: 0 0;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+.contact-button-border2,
+.contact-button2 {
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+.contact-button-border:hover {
+  background: linear-gradient(#01cc00, #01b100);
+}
+.contact-button2 {
+  background: linear-gradient(#5a0073, #2b0036);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.contact-button-border2 {
+  background: 0 0;
+  color: #2b0036;
+  border: 2px solid #2b0036;
+  border-radius: 5px;
+}
+.contact-button-border2:hover {
+  background: linear-gradient(#5a0073, #2b0036);
+}
+.background-container {
+  background-image: url("/static/img/codesing_simbol_grey.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center right;
+  padding-right: 200px;
+}
+.custom-h1 {
+  font-size: 2rem;
+}
+::-webkit-scrollbar {
+  width: 0.6vw;
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  background: #2b0036;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #01cc00;
+}
+
+
+.bg-primary{
+  background-color: #2b0036 !important;
+}
+.border-primary{
+  border-color: #2b0036 !important;
+}
