@@ -88,8 +88,7 @@
         </div>
     </div>
     <div class="container-fluid" style="padding-top: 200px; padding-bottom: 100px;">
-        <div data-aos="fade-up" class="container col-xxl-8 px-5 py-5 background-container"
-            style="background-image: url('{{ asset('images/codesing_simbol_grey.svg') }}'); background-repeat: no-repeat; background-position: center right; background-size: 35%;">
+        <div data-aos="fade-up" class="container col-xxl-8 px-5 py-5 background-container" style="background-image: url('{{ asset('images/codesing_simbol_grey.svg') }}'); background-repeat: no-repeat; background-position: center right; background-size: 35%;">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <img data-aos="fade-up" src="{{ asset('images/codesing_logo.svg') }}" alt="Codesing logo" width="200" height="100">
             </div>
