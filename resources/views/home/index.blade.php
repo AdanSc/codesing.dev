@@ -88,21 +88,23 @@
         </div>
     </div>
     <div class="container-fluid" style="padding-top: 200px; padding-bottom: 100px;">
-        <div class="container col-xxl-8 px-5 py-4 background-container">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5"> <img data-aos="fade-up"
-                    src="{{ asset('images/codesing_logo.svg') }}" alt="Codesing logo" width="200" height="100">
+        <div data-aos="fade-up" class="container col-xxl-8 px-5 py-5 background-container"
+            style="background-image: url('{{ asset('images/codesing_simbol_grey.svg') }}'); background-repeat: no-repeat; background-position: center right; background-size: 35%;">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <img data-aos="fade-up" src="{{ asset('images/codesing_logo.svg') }}" alt="Codesing logo" width="200" height="100">
             </div>
             <p data-aos="fade-up" class="fs-5 text-muted">Trabajar con nosotros significa tener acceso a un equipo de
                 programadores apasionados y experimentados que crean soluciones digitales innovadoras para impulsar el éxito
                 de tu empresa.</p>
         </div>
     </div>
+
     <div class="container-fluid">
         <div class="container col-xxl-9 px-5 py-3">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-10 col-sm-8 col-lg-6 mx-auto text-center"> <img data-aos="fade-up"
-                        src="{{ asset('images/AdanSc.webp') }}" class="d-block img-fluid" alt="AdanSc"
-                        width="700" height="500" loading="lazy"> </div>
+                        src="{{ asset('images/AdanSc.webp') }}" class="d-block img-fluid" alt="AdanSc" width="700"
+                        height="500" loading="lazy"> </div>
                 <div class="col-lg-6">
                     <h1 data-aos="fade-up" class="custom-h1 display-5 fw-bold lh-1 mb-3">Hola, mi nombre es <span
                             style="color: #01CC00;">Adan Suarez</span>!</h1>
