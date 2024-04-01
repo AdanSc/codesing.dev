@@ -1,6 +1,6 @@
 @extends('home.layout.layout')
 
-@section('title') Codesing { Servicios } @endsection()
+@section('title', 'Codesing { Servicios }')
 
 @section('content')
 

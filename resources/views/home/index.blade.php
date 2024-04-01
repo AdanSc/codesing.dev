@@ -1,10 +1,9 @@
 @extends('home.layout.layout_footer')
 
-@section('title')
-    Codesing { Dev }
-@endsection()
+@section('title', 'Codesing { Dev }')
 
 @section('content')
+
     <div class="container-fluid">
         <div class="container col-xxl-9 px-5 py-5">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">

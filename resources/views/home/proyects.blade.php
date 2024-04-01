@@ -1,8 +1,9 @@
-{% extends './layout.html' %}
+@extends('home.layout.layout')
 
-{% block title %}Codesing { dev }{% endblock %}
+@section('title', 'Codesing { Proyectos }')
 
-{% block main %}
+@section('content')
+
 <section class="py-5 text-center container">
     <div class="container col-lg-7">
         <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
@@ -221,4 +222,4 @@
     </div>
 </div>
 
-{% endblock %}
+@endsection()
