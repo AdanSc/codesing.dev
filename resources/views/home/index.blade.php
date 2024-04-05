@@ -17,7 +17,7 @@
                         aplicaciones a medida y autoadministrables.</p>
                     <ul data-aos="fade-up" class="fs-5 text-muted">
                         <li>PHP</li>
-                        <li>Python</li>
+                        <li>Boostrap</li>
                         <li>WordPress</li>
                         <li>Woocommerce</li>
                     </ul>
